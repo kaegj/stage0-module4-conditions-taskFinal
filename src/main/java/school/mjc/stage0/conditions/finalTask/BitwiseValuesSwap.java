@@ -5,6 +5,8 @@ public class BitwiseValuesSwap {
         first = (first & second) + (first | second);
         second = first + (~second) + 1;
         first = first + (~second) + 1;
+        System.out.println(first);
+        System.out.println(second);
 
     }
 }

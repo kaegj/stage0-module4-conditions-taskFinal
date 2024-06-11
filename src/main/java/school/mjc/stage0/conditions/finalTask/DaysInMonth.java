@@ -23,6 +23,8 @@ public class DaysInMonth {
             case 11:
                 System.out.println("30");
                 break;
+            default:
+                System.out.println("invalid date");
         }
     }
 }
